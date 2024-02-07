@@ -1,0 +1,45 @@
+
+Math.random()
+해당 함수는 0.0이상 1.0미만의 난수를 반환합니다.
+
+Math.pow(n, m)	
+해당 함수는 n의 m제곱근 값을 반환합니다.
+
+Math.sqrt(n)	
+해당 함수는 n의 루트값을 반환합니다.	Math.sqrt(121)
+
+Math.abs(n)	
+해당 함수는 n의 부호(+, -)를 제외한 값을 반환합니다.
+
+Math.celi(n)	
+해당 함수는 n이 소수점일 경우 값을 올림하여 반환합니다.
+
+Math.round(n)
+해당 함수는 n의 소수점일 경우 값을 반올림하여 반환합니다	
+
+Math.floor(n)	
+해당 함수는 n의 소수점일 경우 값을 내림하여 반환합니다.
+
+Math.max(n, m)	
+해당 함수는 n과 m을 비교하여 최대값을 반환합니다.	
+
+Math.min(n, m)	
+해당 함수는 n과 m을 비교하여 최소값을 반환합니다.	
+
+Math.subtractExact(n, m)	
+해당 함수는 n에서 m을 뺀 값을 반환합니다.	
+
+Math.multiplyExact(n, m)	
+해당 함수는 n과 m을 곱한 값을 반환합니다	
+
+Math.floorDiv(n, m)	
+해당 함수는 n과 m을 나눈 값을 반환합니다.	
+
+Integer.toString(n, m)	
+해당 함수는 n의 10진수의 값을 m 진법으로 반환합니다.	0
+
+Integer.parseInt(n)	
+해당 함수는 문자열을 숫자로 변환해주며, 부호(+, -)를 포함하여서 반환합니다.	
+
+Integer.parseInt(n, m)	
+해당 함수는 n의 n진법의 값을 m의 진법에 따라 10진수로 반환합니다.	
