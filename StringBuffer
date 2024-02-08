@@ -1,0 +1,58 @@
+StringBuffer 메소드
+
+메소드	설명
+StringBuffer append(boolean b)
+
+StringBuffer append(char c)
+
+StringBuffer append(char[] str)
+
+StringBuffer append(CharSequence s)
+
+StringBuffer append(double d)
+
+StringBuffer append(float f)
+
+StringBuffer append(int i)
+
+StringBuffer append(long lng)
+
+StringBuffer append(Object obj)
+
+StringBuffer append(String str)
+
+StringBuffer append(StringBuffer sb)
+인수로 전달된 값을 문자열로 변환한 후, 해당 문자열의 마지막에 추가함.
+
+int capacity()	
+현재 버퍼 크기를 반환함.
+
+StringBuffer delete(int start, int end)	
+전달된 인덱스에 해당하는 부분 문자열을 해당 문자열에서 제거함.
+
+StringBuffer deleteCharAt(int index)	
+전달된 인덱스에 해당하는 문자를 해당 문자열에서 제거함.
+
+StringBuffer insert(int offset, boolean b)
+
+StringBuffer insert(int offset, char c)
+
+StringBuffer insert(int offset, char[] str)
+
+StringBuffer insert(int offset, CharSequence s)
+
+StringBuffer insert(int offset, double d)
+
+StringBuffer insert(int offset, float f)
+
+StringBuffer insert(int offset, int i)
+
+StringBuffer insert(int offset, long lng)
+
+StringBuffer insert(int offset, Object obj)
+
+StringBuffer insert(int offset, String str)
+인수로 전달된 값을 문자열로 변환한 후, 해당 문자열의 지정된 인덱스 위치에 추가함.
+
+StringBuffer reverse()	
+해당 문자열의 인덱스를 역순으로 재배열함.
